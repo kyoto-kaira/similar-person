@@ -1,0 +1,19 @@
+import streamlit as st
+import torch
+import torch.nn.functional as F
+import numpy as np
+import pandas as pd
+from PIL import Image
+import cv2
+import matplotlib.pyplot as plt
+from facenet_pytorch import MTCNN, InceptionResnetV1
+from torchvision.transforms import Compose, ToTensor, ToPILImage
+
+streamlit==1.28.2
+torch==1.13.1
+numpy==1.22.4
+pandas==2.0.2
+Pillow==9.2.0
+opencv-python-headless==4.7.0.68
+facenet_pytorch==2.5.3
+torchvision==0.14.1
